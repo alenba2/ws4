@@ -1,0 +1,433 @@
+    1  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    2  history > cmds.log
+    3  logout
+    4  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+    5  head amazon_reviews_us_Books_v1_02.tsv.gz
+    6  passwd
+    7  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    8  head amazon_reviews_us_Books_v1_02.tsv.gz
+    9  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+   10  head amazon_reviews_us_Books_v1_02.tsv.gz
+   11  pwd
+   12  ls
+   13  head amazon_reviews_us_Books_v1_02.tsv
+   14  pwd
+   15  ls
+   16  head amazon_reviews_us_Books_v1_02.tsv
+   17  grep verified amazon_reviews_us_Books_v1_02.tsv
+   18  grep "verified" amazon_reviews_us_Books_v1_02.tsv
+   19  grep -w verified amazon_reviews_us_Books_v1_02.tsv
+   20  cat amazon_reviews_us_Books_v1_02.tsv
+   21  amazon_reviews_us_Books_v1_02.tsv
+   22  head 10 amazon_reviews_us_Books_v1_02.tsv
+   23  head 1 amazon_reviews_us_Books_v1_02.tsv
+   24  clear
+   25  head 1 amazon_reviews_us_Books_v1_02.tsv
+   26  clear
+   27  head 1 amazon_reviews_us_Books_v1_02.tsv
+   28  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+   29  grep 2 
+   30  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+   31  head -n 2 amazon_reviews_us_Books_v1_02.tsv
+   32  head -n 3 amazon_reviews_us_Books_v1_02.tsv
+   33  clear
+   34  head -n 3 amazon_reviews_us_Books_v1_02.tsv
+   35  grep -w 2 amazon_reviews_us_Books_v1_02.tsv
+   36  grep -w Y amazon_reviews_us_Books_v1_02.tsv
+   37  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+   38  head -n 2 amazon_reviews_us_Books_v1_02.tsv
+   39  head -n 3 amazon_reviews_us_Books_v1_02.tsv
+   40  awk '$11=='Y' {print}' amazon_reviews_us_Books_v1_02.tsv
+   41  awk '$11=="Y" {print}' amazon_reviews_us_Books_v1_02.tsv
+   42  awk '$12=="Y" {print}' amazon_reviews_us_Books_v1_02.tsv
+   43  awk '$12=="N" {print}' amazon_reviews_us_Books_v1_02.tsv
+   44  wc amazon_reviews_us_Books_v1_02.tsv
+   45  date > counts.txt
+   46  pwd
+   47  ls
+   48  vi counts.txt
+   49  ls
+   50  date >> counts.txt
+   51  ls
+   52  wc amazon_reviews_us_Books_v1_02.tsv
+   53  cat counts.txt
+   54  kate counts.txt
+   55  kat counts.txt
+   56  vi counts.txt
+   57  wc amazon_reviews_us_Books_v1_02.tsv > counts.txt
+   58  vi counts.txt
+   59  history > cmds.log
+   60  vi cmds.log
+   61  awk '$12=="Y" {print}' amazon_reviews_us_Books_v1_02.tsv
+   62  awk '$12=="N" {print}' amazon_reviews_us_Books_v1_02.tsv
+   63  history > cmds.log
+   64  vi cmds.log
+   65  git config --global user.name "alenba2"
+   66  git config --global user.email baekallen@gmail.com
+   67  mkdir ws2
+   68  ls
+   69  mv cmds.log ws2
+   70  mv counts.txt ws2
+   71  ls
+   72  cd ws2
+   73  ls
+   74  git init
+   75  git add *
+   76  git push -m 'wc2'
+   77  git status
+   78  git commit -m 'ws2'
+   79  git push
+   80  git origin git@github.com:alenba2/ws2
+   81  git remote add origin git@github.com:alenba2/ws2
+   82  git push -u origin master
+   83  git remote add origin https://github.com/alenba2/ws2
+   84  git push -u origin master
+   85  git push origin master
+   86  git push
+   87  git push origin master
+   88  git push --set-upstream origin master
+   89  git status
+   90  sudo git push -u origin master
+   91  su git push -u origin master
+   92  git push -u origin master
+   93  sudo git push -u origin master
+   94  git remote add origin https://github.com/alenba2/cs131ws2.git
+   95  git remote add https://github.com/alenba2/cs131ws2.git
+   96  git remote rename
+   97  git remote rename git@github.com:alenba2/ws2 https://github.com/alenba2/cs131ws2.git
+   98  git remote -v
+   99  git remote rename
+  100  git remote git@github.com:alenba2/ws2 https://github.com/alenba2/cs131ws2.git
+  101  git remote set-url origin https://github.com/alenba2/cs131ws2.git
+  102  git remote -v
+  103  sudo git push -u origin master
+  104  git push -u origin master
+  105  git remote -v
+  106  git push -u origin master
+  107  script a1.txt
+  108  ls
+  109  cat a1.txt
+  110  vi a1.txt
+  111  rm a1.txt
+  112  ls
+  113  script a1.txt
+  114  mkdir test_a1
+  115  cd test_a1
+  116  $home
+  117  $HOME
+  118  echo "me"
+  119  pwd
+  120  $HOME
+  121  pwd
+  122  echo $HOME
+  123  $UID
+  124  UID
+  125  id -u allen
+  126  man chmod
+  127  /etc/passwd
+  128  nano /etc/group
+  129  nano /etc/passwd
+  130  mkdir A1
+  131  cd A1
+  132  pwd
+  133  $HOME
+  134  nano /etc/passwd
+  135  mkdir temp
+  136  chmod 677 temp
+  137  cd temp
+  138  ls
+  139  ls -l
+  140  mkdir temp2
+  141  mv temp3
+  142  cd /proc/
+  143  ls
+  144  head meminfo
+  145  head cpuinfo
+  146  tail cpuinfo
+  147  cat cpuinfo
+  148  cd /home/allen
+  149  cd A1
+  150  cp -r /home/test/A1/downloaded_hashtags_extend.csv twitter.csv
+  151  ls
+  152  wc twitter.csv
+  153  stat twitter.csv
+  154  grep -c "great" test_a1
+  155  grep -c "great" twitter.csv
+  156  file twitter.csv
+  157  iconv -f utf-8 -t ascii//TRANSLIT twitter.csv
+  158  awk -F "," '{print $1}' test_a1 | sort | uniq | wc
+  159  awk -F "," '{print $1}' twitter.csv | sort | uniq | wc
+  160  awk -F "," '{print $(NF)}' twitter.csv | sort | uniq | wc
+  161  awk -F "," '{print $2}' twitter.csv | sort | uniq | wc
+  162  cd ..
+  163  cd test_a1
+  164  mkdir temp
+  165  ls
+  166  chmod man
+  167  chmod man page
+  168  nano chmod man
+  169  chmod 677 temp
+  170  cd temp
+  171  ls
+  172  ls -I
+  173  ls -l
+  174  temp2
+  175  mk temp2
+  176  mkdir temp2
+  177  mv temp3
+  178  cp -r allen temp2
+  179  cp -r /home/allen temp2
+  180  cp -r /home/allen temp2/allen
+  181  cp -r /home/allen temp2
+  182  cd /proc/
+  183  ls
+  184  grep meminfo
+  185  ls meminfo
+  186  cd meminfo
+  187  head meminfo
+  188  head cpuinfo
+  189  tail cpuinfo
+  190  cat cpuinfo
+  191  head cpuinfo
+  192  cd home
+  193  cd allen
+  194  cd /home/allen
+  195  cd test_a1
+  196  /home/test/A1/downloaded_hashtags_extend.csv
+  197  downloaded_hashtags_extend.csv
+  198  wget /home/test/A1/downloaded_hashtags_extend.csv
+  199  cd /home/test/A1/downloaded_hashtags_extend.csv test_a1
+  200  cd -r /home/test/A1/downloaded_hashtags_extend.csv test_a1
+  201  cp -r /home/test/A1/downloaded_hashtags_extend.csv test_a1
+  202  ls
+  203  cd test_a1
+  204  head test_a1
+  205  wc test_a1
+  206  stat test_a1
+  207  grep -c "Great" test_a1
+  208  grep -h "Great" test_a1
+  209  grep -c "Great" test_a1
+  210  grep -c "great" test_a1
+  211  grep -c "GREAT" test_a1
+  212  grep -c "Great" test_a1
+  213  grep -c "great" test_a1
+  214  file test_a1
+  215  konwert utf8-ascii
+  216  iconv -f utf-8 -t ascii//TRANSLIT
+  217  file test_a1
+  218  iconv -f utf-8 -t ascii//TRANSLIT test_a1
+  219  file test_a1
+  220  head test_a1
+  221  uniqu cut
+  222  uniq cut
+  223  awk '{print $5}' test_a1 | sort | uniq
+  224  awk '{print}' test_a1 | sort | uniq
+  225  awk '{$1}' test_a1 | sort | uniq
+  226  awk '{print $1}' test_a1 | sort | uniq
+  227  awk '{print $0}' test_a1 | sort | uniq
+  228  uniq -c test_a1
+  229  wc test_a1
+  230  wc awk '{print}' test_a1
+  231  awk '{print $0}'
+  232  awk '{print $0}' test_a1
+  233  awk '{$0}' test_a1
+  234  awk '{print $1}' test_a1
+  235  awk '{print $2}' test_a1
+  236  awk '{print $0}' test_a1
+  237  ls -l | awk '{print $1}'
+  238  awk "," '{print $1}' test_a1
+  239  awk -F "," '{print $1}' test_a1
+  240  uniq awk -F "," '{print $1}' test_a1
+  241  cut -d ',' test_a1 | sort |
+  242  awk -F "," '{print $1}' test_a1 | sort | uniq
+  243  awk -F "," '{print $1}' test_a1 | uniq
+  244  awk -F "," '{print $1}' test_a1 | uniq | sort
+  245  wc awk -F "," '{print $1}' test_a1 | uniq | sort
+  246  awk -F "," '{print $1}' test_a1 | uniq | sort
+  247  awk -F "," '{print $1}' test_a1 | uniq | sort | wc
+  248  awk -F "," '{print $1}' test_a1 | uniq | wc
+  249  awk -F "," '{print $1}' test_a1 | wc
+  250  awk -F "," '{print $1}' test_a1 | sort | uniq | wc
+  251  awk -F "," '{print $1}' test_a1 | sort | uniq
+  252  awk -F "," '{print $1}' test_a1 | sort | uniq | wc
+  253  awk -F "," '{print $NF}' test_a1 | sort | uniq | wc
+  254  awk -F "," '{print $(NF)}' test_a1 | sort | uniq | wc
+  255  awk -F "," '{print $2}' test_a1 | sort | uniq | wc
+  256  cd ..
+  257  script a1.txt
+  258  cat a1.txt
+  259  more a1.txt
+  260  man a1.txt
+  261  more a1.txt
+  262  clear
+  263  cat a1.txt
+  264  vi a1.txt
+  265  nano a1.txt
+  266  ls
+  267  cat a1c.txt
+  268  mkdir a1t
+  269  mv a1c.txt
+  270  mv a1c.txt a1t
+  271  cd a1t
+  272  git clone https://github.com/alenba2/cs131-a1.git
+  273  git add *
+  274  git status
+  275  git init
+  276  git status
+  277  rm cs131-a1
+  278  ls
+  279  cd..
+  280  cd ..
+  281  cd a1t
+  282  mv a1c.txt ..
+  283  cd ..
+  284  mkdir a12
+  285  mv a1c.txt
+  286  ls
+  287  mv a1c.txt a12
+  288  cd a12
+  289  git init
+  290  git status
+  291  git add *
+  292  git commit -m 'add script'
+  293  git remote add origin https://github.com/alenba2/cs131-a1.git
+  294  git push -u origin main
+  295  git status
+  296  git push -u origin master
+  297  ls
+  298  head 1 amazon_reviews_us_Books_v1_02.tsv
+  299  head amazon_reviews_us_Books_v1_02.tsv 1
+  300  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+  301  head -n 2 amazon_reviews_us_Books_v1_02.tsv
+  302  ls
+  303  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k 1 | head -n 3
+  304  cut -f 4 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k 1 | head -n 3
+  305  history > cmds.log
+  306  cat amazon_reviews_us_Books_v1_02.tsv
+  307  cat amazon_reviews_us_Books_v1_02.tsv | head -n 3 
+  308  clear
+  309  cat amazon_reviews_us_Books_v1_02.tsv | head -n 3 
+  310  clear
+  311  head -n 3 | e
+  312  cat amazon_reviews_us_Books_v1_02.tsv | head -n 3 
+  313  cat amazon_reviews_us_Books_v1_02.tsv | head -n 3 | cut -f 2
+  314  cat amazon_reviews_us_Books_v1_02.tsv | head -n 3 | cut -f 1
+  315  cat amazon_reviews_us_Books_v1_02.tsv | sort | cut -f 1 | head -n 3
+  316  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 1 | sort | head -n 3
+  317  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 1 | sort | uniq -c | head -n 3
+  318  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | head -n 3
+  319  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -n 3
+  320  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -n -1+3
+  321  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -1+3
+  322  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail +1 -n 
+  323  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -n 
+  324  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -n 3
+  325  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -n 
+  326  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | tail -n 5
+  327  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort | uniq -c | sort | tail -n 5
+  328  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort -r | uniq -c | head -n 3
+  329  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort -n | uniq -c | head -n 3
+  330  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort -n | uniq -c | tail -n 3
+  331  cat amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | sort -nr | uniq -c | head -n 3
+  332  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq -c | head -n 3
+  333  sort amazon_reviews_us_Books_v1_02.tsv | uniq -c | head -n 3
+  334  sort amazon_reviews_us_Books_v1_02.tsv | uniq -c | cut -f 2 | head -n 3
+  335  sort amazon_reviews_us_Books_v1_02.tsv | uniq -c | cut -f 2 | tail -n 3
+  336  sort amazon_reviews_us_Books_v1_02.tsv | cut -f 2 | uniq -c | tail -n 3
+  337  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq -c
+  338  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort
+  339  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -n
+  340  cut -f 2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k 1 | head -n 3
+  341  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+  342  cut -f 4 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr -k 1 | head -n 3
+  343  script ws3.txt
+  344  ls
+  345  cut -d "   " -f 1 amazon_reviews_us_Books_v1_02.tsv
+  346  cut -d " " -f 1 amazon_reviews_us_Books_v1_02.tsv
+  347  ls
+  348  rm test_a1
+  349  delete test_a1
+  350  cd A1
+  351  ls
+  352  rm twitter.csv
+  353  ls
+  354  cd ..
+  355  cd test_a1
+  356  ls
+  357  rm test_a1
+  358  ls
+  359  cd ..
+  360  status allen
+  361  rmdir A1
+  362  rm -R A1
+  363  ls
+  364  rm -R test_a1
+  365  cd test_a1
+  366  cd temp2
+  367  ls
+  368  cd ..
+  369  rm -r temp2
+  370  cd ..
+  371  ls
+  372  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+  373  cut -d " " -f 2 amazon_reviews_us_Books_v1_02.tsv
+  374  ls
+  375  mkdir ws3
+  376  mv ws3.txt
+  377  ls
+  378  mv ws3.txt
+  379  mv cmds.log
+  380  mv ws3.txt ws3
+  381  mv cmds.log ws3
+  382  cd ws3
+  383  git init
+  384  git add *
+  385  git commit -m 'ws3'
+  386  git remote add origin https://github.com/alenba2/CS-131-ws3.git
+  387  git push -u origin master
+  388  ls
+  389  cd test_a1
+  390  ls
+  391  cd ..
+  392  /home/test/A1/downloaded_hashtags_extend.csv
+  393  cd a12
+  394  ls
+  395  cd ..
+  396  /home/test/A1/downloaded_tweets_extend_nolf.txt
+  397  downloaded_tweets_extend_nolf.txt
+  398  cp downloaded_tweets_extend_nolf.txt
+  399  cp /home/test/A1/downloaded_tweets_extend_nolf.txt
+  400  wget /home/test/A1/downloaded_tweets_extend_nolf.txt
+  401  wget /home/test/A1:
+  402  downloaded_tweets_extend_original_nolf2.tsv
+  403  wget /home/test/A1:
+  404  downloaded_tweets_extend_original_nolf2.tsv
+  405  cp /home/test/A1downloaded_tweets_extend_nolf2.tsv
+  406  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv
+  407  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv tweets.tsv
+  408  ls
+  409  cp /home/test/A1/downloaded_tweets_extend_original_nolf2.tsv orig_tweets.tsv
+  410  ls
+  411  vi tweets.tsv
+  412  head -n 1 tweets.tsv
+  413  head -n 2 tweets.tsv
+  414  head -n 1 orig_tweets.tsv
+  415  head -n 2 orig_tweets.tsv
+  416  alias l='ls -latr'
+  417  alias w='ls -la | wc'
+  418  vi .bashrc
+  419  mkdir CUSTOMERS
+  420  mkdir PRODUCTS
+  421  egrep 12076615 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > CUSTOMERS/12076615.txt
+  422  egrep 12703090 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > CUSTOMERS/12703090.txt
+  423  egrep 12257412 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > CUSTOMERS/12257412.txt
+  424  cd CUSTOMERS
+  425  ls
+  426  cd ..
+  427  egrep 0385730586 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > PRODUCTS/0385730586.txt
+  428  egrep 0811828964 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > PRODUCTS/0811828964.txt
+  429  egrep 1844161560 amazon_reviews_us_Books_v1_02.tsv | cut -f 9 > PRODUCTS/1844161560.txt
+  430  paste CUSTOMERS/12076615.txt CUSTOMERS/12703090.txt CUSTOMERS/12257412.txt PRODUCTS/0385730586.txt PRODUCTS/0811828964.txt PRODUCTS/1844161560.txt |  awk '{s+=$1}END{print "ave:",s/NR}
+
+  431  paste CUSTOMERS/12076615.txt CUSTOMERS/12703090.txt CUSTOMERS/12257412.txt PRODUCTS/0385730586.txt PRODUCTS/0811828964.txt PRODUCTS/1844161560.txt |  awk '{s+=$1}END{print "ave:",s/NR}'
+  432  history > cmds.log
